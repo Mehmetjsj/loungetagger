@@ -38,9 +38,9 @@ async def help(event):
   helptext = "**Kullanıcı etiket  botun Yardım Menüsü**\n\nKomut: /all \n  Bu komutu, başkalarına bahsetmek istediğiniz metinle birlikte kullanabilirsiniz. \n`Örnek: /all Günaydın!`  \nBu komutu yanıt olarak kullanabilirsiniz. herhangi bir mesaj Bot, yanıtlanan iletiye kullanıcıları etiketleyecek"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/loungetaggerbot?startgroup=a'),
-                       Button.url('📣 Support', 'https://t.me/loungesupport'),
-                      Button.url('🚀 Sahibim', 'https://t.me/bodrumlubebekk')]
+                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/KullaniciEtiketiBot?startgroup=a'),
+                       Button.url('📣 Support', 'https://t.me/KullaniciEtiketiBotKanal'),
+                      Button.url('🚀 Sahibim', 'https://t.me/HzSadrazam')]
                     ),
                     link_preview=False
                    )
